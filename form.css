@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-blood-donation-art-free-simple-white-banner-image_180424.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    size: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

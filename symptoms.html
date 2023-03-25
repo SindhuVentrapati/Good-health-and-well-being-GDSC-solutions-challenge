@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            background-image: url('data:image/jpeg;base64,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');
+            background-attachment: fixed;
+            background-size: cover;
+            color: rgb(236, 239, 240);
+        }
+
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            padding: 5%;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .search-bar {
+            width: 100%;
+            max-width: 700px;
+            background-color: blue;
+            display: flex;
+            align-items: center;
+            border-radius: 60px;
+            padding: 10px 20px;
+            backdrop-filter: blur(4px) saturate(180%);
+        }
+
+        .search-bar input {
+            background: transparent;
+            flex: 1;
+            border: 0;
+            outline: none;
+            padding: 24px 20px;
+            font-size: 20px;
+            color: antiquewhite;
+        }
+
+        ::placeholder {
+            color: antiquewhite;
+        }
+
+        .search-bar button img {
+            width: 25px;
+
+        }
+
+        .search-bar button {
+            border: 0;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            background: #58629b;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">KNOW YOUR HEALTH CONDITION!!!</h1><br>
+    <h3>=> Symptoms any type of physical or mental changes that occur in a person which differs from their state of
+        homeostasis. Symptoms may also refer to an indication of the presence of a particular disease.</h3><br><br>
+    <h2>What are examples of symptoms?</h2>
+
+    <h3>A symptom is the subjective experience of a potential health issue, which cannot be observed by a doctor.
+        Examples include stomach cramps as a result of eating undercooked meat, a throbbing headache brought on by
+        stress, or an overwhelming feeling of fatigue.</h3>
+    <div class="container">
+        <form action="https://www.google.com/search" method="get" class="search-bar">
+            <input type="text" placeholder="search health issue" name="q">
+            <button type="submit"><img
+                    src="https://image.shutterstock.com/image-vector/search-icon-symbol-premium-quality-260nw-664547113.jpg"></button>
+        </form>
+        <center>
+
+</body>
+
+</html>

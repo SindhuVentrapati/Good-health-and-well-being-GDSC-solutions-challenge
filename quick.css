@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.section {
+    background-color: rgb(146, 210, 62);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 80%;
+    margin: 10rem auto 0 auto;
+    margin-top: 0;
+}
+
+.section img {
+    height: 250px;
+}
+
+.section h2 {
+    margin: 0;
+    color: rgb(10, 9, 10);
+}
+
+.section p {
+    color: brown;
+    margin-right: 15px;
+}

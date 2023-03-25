@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("https://www.lsu.edu/hrm/images/banner_healthwellness.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.menu-bar {
+    text-align: right;
+    background-image: linear-gradient(-200deg, white, rgb(95, 55, 47));
+}
+
+.nav-link {
+    font-size: 20px;
+    margin: 3px;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-nav {
+    text-align: right;
+    margin-right: 20px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.manu-bar .navbar-toggler {
+    padding-right: 10px;
+    outline: none;
+    border: none;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+
+.navbar-brand img {
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .nav-link:hover {
+        border-bottom: none;
+    }
+}
+
+button {
+    background-color: rgb(61, 30, 7);
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px rgb(38, 24, 235);
+    color: rgb(239, 239, 243);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: rgb(14, 14, 99);
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+p {
+    margin-top: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
